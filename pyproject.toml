@@ -8,6 +8,7 @@ packages = [{include = "online_store 2"}]
 
 [tool.poetry.dependencies]
 python = "^3.12"
+django = "^5.1.1"
 
 
 [build-system]
