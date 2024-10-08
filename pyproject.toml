@@ -9,6 +9,10 @@ packages = [{include = "online_store 2"}]
 [tool.poetry.dependencies]
 python = "^3.12"
 django = "^5.1.1"
+psycopg2 = "^2.9.9"
+python-dotenv = "^1.0.1"
+pillow = "^10.4.0"
+ipython = "^8.28.0"
 
 
 [build-system]
