@@ -5,11 +5,11 @@
     "fields": {
         "name": "Mercedes-Benz",
         "description": "Одна из лучших моделей автомомбилей",
-        "image": "",
+        "image": "image/мерседес.jpg",
         "category": 1,
         "price": "7000000.00",
         "created_at": "2024-10-06T14:09:30.410Z",
-        "updated_at": "2024-10-06T14:32:58.867Z"
+        "updated_at": "2024-10-10T12:33:38.971Z"
     }
 },
 {
@@ -18,11 +18,11 @@
     "fields": {
         "name": "Rolls-Royce",
         "description": "Самая дорогая марка автомобилей",
-        "image": "",
+        "image": "image/ролс.jpg",
         "category": 1,
         "price": "10000000.00",
         "created_at": "2024-10-06T14:15:01.995Z",
-        "updated_at": "2024-10-06T14:15:01.995Z"
+        "updated_at": "2024-10-10T12:33:46.142Z"
     }
 },
 {
@@ -31,11 +31,11 @@
     "fields": {
         "name": "Ducati",
         "description": "Одна из лучших марок мотоциклов",
-        "image": "",
+        "image": "image/дукати.jpg",
         "category": 2,
         "price": "1000000.00",
         "created_at": "2024-10-06T14:17:25.827Z",
-        "updated_at": "2024-10-06T14:17:25.827Z"
+        "updated_at": "2024-10-10T12:33:31.678Z"
     }
 },
 {
@@ -44,11 +44,11 @@
     "fields": {
         "name": "Stels",
         "description": "Просто хорошая марка велосипедов",
-        "image": "",
+        "image": "image/стелс.jpg",
         "category": 3,
         "price": "19000.00",
         "created_at": "2024-10-06T14:20:26.713Z",
-        "updated_at": "2024-10-06T14:20:26.713Z"
+        "updated_at": "2024-10-10T12:33:52.690Z"
     }
 },
 {
@@ -57,11 +57,11 @@
     "fields": {
         "name": "Suzuki",
         "description": "Одна из самых быстрых марок мотоциклов",
-        "image": "",
+        "image": "image/судзуки.jpg",
         "category": 2,
         "price": "400000.00",
         "created_at": "2024-10-06T14:55:57.491Z",
-        "updated_at": "2024-10-06T14:55:57.491Z"
+        "updated_at": "2024-10-10T12:34:00.089Z"
     }
 },
 {
@@ -70,11 +70,11 @@
     "fields": {
         "name": "Аист",
         "description": "Велосипед с большим прошлым",
-        "image": "",
+        "image": "image/аист.jpg",
         "category": 3,
         "price": "9999999.00",
         "created_at": "2024-10-06T14:56:39.742Z",
-        "updated_at": "2024-10-06T14:56:39.742Z"
+        "updated_at": "2024-10-10T12:34:03.008Z"
     }
 }
 ]
