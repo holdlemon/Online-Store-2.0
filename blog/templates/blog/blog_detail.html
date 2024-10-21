@@ -1,28 +1,29 @@
-{% extends 'home.html' %}
+{% extends 'catalog/home.html' %}
+{% block title %}Блог{% endblock %}
 {% block content %}
 <div class="container">
     <div class="row text-center">
 
-        <div class="col-3">
-            <div class="card mb-4 box-shadow">
-
-                <div class="card-header">
-
-                    <h4 class="my-0 font-weight-normal">{{ products.name }}</h4>
-
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="/media/{{ blog.preview }}" class="img-fluid rounded-start" style="height: 12rem; object-fit: cover;">
                 </div>
-                <div class="card-body">
-                    <p>Категория: {{ products.category }}</p>
-                    <img src="/media/{{ products.image }}" class="img-fluid" style="height: 12rem; object-fit: cover;">
-
-                    <p>{{ products.description|truncatechars:100 }}</p>
-
-                    <h3 class="card-title pricing-card-title">{{ products.price }}</h3>
-                    <a type="button" class="btn btn-lg btn-block btn-outline-primary" href="/prod/{{ product.pk }}">Подробнее о товаре</a>
-                    </ul>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ object.title }}</h5>
+                        <p class="card-text">{{ object.content }}</p>
+                        <p class="card-text"><small class="text-muted">Количество просмотров: {{ object.view_counter }}</small></p>
+                        <p class="card-text"><small class="text-body-secondary">Создан: {{ blog.created_at }}</small></p>
+                    </div>
                 </div>
+
             </div>
+
         </div>
+    <div class="text-center">
+        <a type="button" class="btn btn-mb btn-block btn-outline-primary w-50" href="{% url 'blog:blog_list' %}">Назад</a>
+    </div>
 
     </div>
 
@@ -30,7 +31,7 @@
         <div class="row">
             <div class="col-12 col-md">
                 SkyStore
-                <small class="d-block mb-3 text-muted">&copy; 2023</small>
+                <small class="d-block mb-3 text-muted">&copy; 2024</small>
             </div>
             <div class="col-6 col-md">
                 <h5>Категории</h5>

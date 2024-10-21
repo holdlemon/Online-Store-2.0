@@ -1,0 +1,50 @@
+[
+{
+    "model": "blog.blog",
+    "pk": 1,
+    "fields": {
+        "title": "Кошки",
+        "content": "Кошки (Felis catus) — это млекопитающие семейства кошачьих, известные своей грациозностью, ловкостью и независимым характером",
+        "preview": "blog/кошка.jpg",
+        "created_at": "2024-10-20T22:17:51.702Z",
+        "is_published": true,
+        "view_counter": 35
+    }
+},
+{
+    "model": "blog.blog",
+    "pk": 2,
+    "fields": {
+        "title": "Собаки",
+        "content": "Собаки (Canis lupus familiaris) — это млекопитающие семейства псовых, известные своей преданностью, интеллектом и разнообразием пород.",
+        "preview": "blog/собака.jpg",
+        "created_at": "2024-10-21T15:24:14.650Z",
+        "is_published": true,
+        "view_counter": 6
+    }
+},
+{
+    "model": "blog.blog",
+    "pk": 3,
+    "fields": {
+        "title": "test 3",
+        "content": "test 3",
+        "preview": "",
+        "created_at": "2024-10-21T15:40:35.674Z",
+        "is_published": false,
+        "view_counter": 0
+    }
+},
+{
+    "model": "blog.blog",
+    "pk": 5,
+    "fields": {
+        "title": "Хомяк",
+        "content": "Хомяки (Cricetinae) — это семейство грызунов, известных своей миниатюрностью, активностью и способностью к обучению.",
+        "preview": "blog/хомяк.jpg",
+        "created_at": "2024-10-21T15:48:57.661Z",
+        "is_published": true,
+        "view_counter": 1
+    }
+}
+]
