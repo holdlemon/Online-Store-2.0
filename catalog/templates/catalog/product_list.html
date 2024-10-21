@@ -1,8 +1,13 @@
 {% extends 'catalog/home.html' %}
 
 {% block content %}
+<div class="d-flex justify-content-end">
+        <a type="button" class="btn btn-lg btn-block btn-outline-secondary" href="{% url 'catalog:products_create' %}">Добавить товар</a>
+</div>
 <div class="container">
+
     <div class="row text-center">
+
         {% for product in object_list %}
         <div class="col-3">
             <div class="card mb-4 box-shadow">

@@ -18,12 +18,14 @@
                     <p>{{ object.description|truncatechars:100 }}</p>
 
                     <h3 class="card-title pricing-card-title">{{ object.price }}</h3>
-                    <a type="button" class="btn btn-lg btn-block btn-outline-primary" href="/prod/{{ object.pk }}">Подробнее о товаре</a>
+
                     </ul>
                 </div>
             </div>
         </div>
-
+    <div class="text-center">
+        <a type="button" class="btn btn-mb btn-block btn-outline-primary w-50" href="{% url 'catalog:products_list' %}">Назад</a>
+    </div>
     </div>
 
     <footer class="pt-4 my-md-5 pt-md-5 border-top">
