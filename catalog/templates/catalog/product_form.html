@@ -1,0 +1,35 @@
+{% extends 'catalog/home.html' %}
+
+{% block title %}Добавить продукт{% endblock %}
+
+{% block content %}
+
+
+<div class="container">
+    <div class="row text-start">
+        <div class="col-12">
+            <div class="card mb-4 box-shadow">
+
+                <div class="card-body">
+
+                    <form method="POST" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        {{ form.as_p }}
+
+                        <button type="submit" class="btn btn-outline-primary">
+                          {% if object %}
+                          Сохранить
+                          {% else %}
+                          Добавить
+                          {% endif %}
+                        </button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
