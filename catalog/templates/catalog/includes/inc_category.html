@@ -1,0 +1,10 @@
+<div>
+    <form id="categoryForm" method="GET" action="{% url 'catalog:product_by_category_list' %}" class="d-flex justify-content-center mt-3">
+        <select class="form-select w-50" style="max-width: 33%;" name="category" onchange="this.form.submit()">
+            <option selected>Выберите категорию</option>
+            {% for category in categories %}
+            <option value="{{ category.pk }}">{{ category.name }}</option>
+            {% endfor %}
+        </select>
+    </form>
+</div>
